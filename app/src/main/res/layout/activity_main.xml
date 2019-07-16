@@ -16,7 +16,7 @@
             android:textSize="50sp" />
     </TableRow>
     <TableRow android:layout_weight="1">
-        <TextView style="@style/CalculatorButton"
+        <Button style="@style/CalculatorButton"
             android:text="AC"/>
         <ImageButton
             android:id="@+id/img_button_plus_minus"
@@ -33,17 +33,17 @@
             android:src="@drawable/ic_divide" />
     </TableRow>
     <TableRow android:layout_weight="1">
-        <TextView style="@style/CalculatorButton"
-            android:id="@+id/text_view_num_7"
+        <Button style="@style/CalculatorButton"
+            android:id="@+id/button_num_7"
             android:text="7"/>
 
-        <TextView
-            android:id="@+id/text_view_num_8"
+        <Button
+            android:id="@+id/button_num_8"
             style="@style/CalculatorButton"
             android:text="8" />
 
-        <TextView
-            android:id="@+id/text_view_num_9"
+        <Button
+            android:id="@+id/button_num_9"
             style="@style/CalculatorButton"
             android:text="9" />
 
@@ -54,18 +54,18 @@
     </TableRow >
     <TableRow android:layout_weight="1">
 
-        <TextView
-            android:id="@+id/text_view_num_4"
+        <Button
+            android:id="@+id/button_num_4"
             style="@style/CalculatorButton"
             android:text="4" />
 
-        <TextView
-            android:id="@+id/text_view_num_5"
+        <Button
+            android:id="@+id/button_num_5"
             style="@style/CalculatorButton"
             android:text="5" />
 
-        <TextView
-            android:id="@+id/text_view_num_6"
+        <Button
+            android:id="@+id/button_num_6"
             style="@style/CalculatorButton"
             android:text="6" />
 
@@ -76,18 +76,18 @@
     </TableRow>
     <TableRow android:layout_weight="1">
 
-        <TextView
-            android:id="@+id/text_view_num_1"
+        <Button
+            android:id="@+id/button_num_1"
             style="@style/CalculatorButton"
             android:text="1" />
 
-        <TextView
-            android:id="@+id/text_view_num_2"
+        <Button
+            android:id="@+id/button_num_2"
             style="@style/CalculatorButton"
             android:text="2" />
 
-        <TextView
-            android:id="@+id/text_view_num_3"
+        <Button
+            android:id="@+id/button_num_3"
             style="@style/CalculatorButton"
             android:text="3" />
 
@@ -98,15 +98,15 @@
     </TableRow>
     <TableRow android:layout_weight="1">
 
-        <TextView
-            android:id="@+id/text_view_num_0"
+        <Button
+            android:id="@+id/button_num_0"
             style="@style/CalculatorButton"
             android:background="@drawable/button_border"
+            android:layout_weight="2"
             android:text="0" />
-        <TextView style="@style/CalculatorButton"/>
 
-        <TextView
-            android:id="@+id/text_view_dot"
+        <Button
+            android:id="@+id/button_dot"
             style="@style/CalculatorButton"
             android:text="." />
 
