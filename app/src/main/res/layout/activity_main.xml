@@ -3,20 +3,35 @@
     android:layout_height="match_parent"
     android:weightSum="7"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <TableRow android:layout_weight="2">
+    <TableRow android:layout_weight="1">
         <TextView
-            android:id="@+id/text_view_result"
+            android:id="@+id/text_view_expression"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:background="#645D5B"
             android:gravity="end|bottom"
             android:text="@string/default_result"
             android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </TableRow>
+    <TableRow android:layout_weight="1">
+        <TextView
+            android:id="@+id/text_view_result"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#645D5B"
+            android:gravity="end|bottom"
+            android:text="@string/default_result"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:textSize="50sp" />
     </TableRow>
     <TableRow android:layout_weight="1">
-        <Button style="@style/CalculatorButton"
+        <Button
+            android:id="@+id/button_ac"
+            style="@style/CalculatorButton"
             android:text="AC"/>
         <ImageButton
             android:id="@+id/img_button_plus_minus"
@@ -75,7 +90,6 @@
             android:src="@drawable/ic_minus" />
     </TableRow>
     <TableRow android:layout_weight="1">
-
         <Button
             android:id="@+id/button_num_1"
             style="@style/CalculatorButton"
@@ -97,7 +111,6 @@
             android:src="@drawable/ic_plus" />
     </TableRow>
     <TableRow android:layout_weight="1">
-
         <Button
             android:id="@+id/button_num_0"
             style="@style/CalculatorButton"
